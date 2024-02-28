@@ -1,4 +1,4 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Deborah is a Mozilla fellow and CS PhD student at University of California, Berkeley, who is interested in questions on algorithmic auditing and evaluation. In the past, she worked closely with the Algorithmic Justice League initiative to highlight bias in deployed AI products. She has also worked with Google’s Ethical AI team and been a research fellow at the Partnership on AI and AI Now Institute at New York University working on various projects to operationalize ethical considerations in ML engineering practice. Recently, she was named to Forbes 30 Under 30 and MIT Tech Review 35 Under 35 Innovators.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
