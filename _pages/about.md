@@ -8,9 +8,9 @@ profile:
   align: right
   image: headshot_portrait_profile.jpeg #prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Soda Hall, Room 523</p>
-    <p>Berkeley, CA 94709</p>
+  #more_info: >
+  #  <p>Soda Hall, Room 523</p>
+  #  <p>Berkeley, CA 94709</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
