@@ -16,6 +16,9 @@ news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+nav: true
+nav_order: 2
 ---
 
 Hi! I'm a PhD student in Computer Science at UC Berkeley. I work on various topics related to the legal and institutional accountability required for machine learning systems to be deployed safely. 
