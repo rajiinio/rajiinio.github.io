@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: senate_raji_photo.webp #headshot_portrait_profile.jpeg #prof_pic.jpg
+  image: headshot_portrait_profile.jpeg #prof_pic.jpg #senate_raji_photo.webp #
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>Soda Hall, Room 523</p>
