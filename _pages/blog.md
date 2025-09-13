@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: blog
 description: high-quality and concise technical posts
-nav: true
+nav: false
 nav_order: 8
 pagination:
   enabled: true
