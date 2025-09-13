@@ -1,7 +1,7 @@
 ---
-layout: teaching
+layout: page
 title: teaching
-permalink: /teaching
+permalink: /teaching/
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
