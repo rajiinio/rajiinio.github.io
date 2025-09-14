@@ -7,7 +7,7 @@
 
 /* Your actual sizing control — change only these numbers */
 .about .profile img {
-  max-width: 800px;   /* cap if you want; or set to none */
+  max-width: none;   /* cap if you want; or set to none */
   width: 50%;         /* try 50%, 70%, 100% */
   height: auto;
 }
