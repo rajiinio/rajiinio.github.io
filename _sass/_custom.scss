@@ -1,21 +1,20 @@
-/* remove or comment out any earlier .profile img width rules */
-
-/* Desktop: make the profile column wider */
-@media (min-width: 768px) {
-  .about .row > .col-md-4 {
-    flex: 0 0 66.6667%;
-    max-width: 66.6667%;
-  }
-  .about .row > .col-md-8 {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
-}
-
-/* Final image sizing — tweak these numbers only */
-.about .profile img {
-  width: 50% !important;   /* fill the wider column */
-  max-width: 800px;         /* try 500, 650, 900, etc. */
+/* Global defaults — no !important here */
+.profile img {
+  width: 100%;
   height: auto;
   display: block;
+}
+
+/* Your actual sizing control — change only these numbers */
+.about .profile img {
+  max-width: 800px;   /* cap if you want; or set to none */
+  width: 50%;         /* try 50%, 70%, 100% */
+  height: auto;
+}
+
+/* Column widening (keep if you want the image’s column bigger) */
+@media (min-width: 768px) {
+  .about .row > .col-md-4 { flex: 0 0 66.6667%; max-width: 66.6667%; }
+  .about .row > .col-md-8 { flex: 0 0 33.3333%; max-width: 33.3333%; }
+  /* Do NOT set .about .profile img width here again */
 }
