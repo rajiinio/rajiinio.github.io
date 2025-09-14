@@ -1,24 +1,7 @@
-/* Make the homepage profile image larger on desktop */
-.profile {
-  width: 90% !important;    /* or 100% if you want full column */
-  max-width: none !important;
-}
-.profile img {
-  width: 100% !important;
-  height: auto;
-  display: block;
-}
+/* remove or comment out any earlier .profile img width rules */
 
-.about .profile img {
-  max-width: 800px;   /* or 300px, 500px, etc. */
-  width: 50%;
-  height: auto;
-}
-
-
-/* Make the profile column wider on desktop only */
+/* Desktop: make the profile column wider */
 @media (min-width: 768px) {
-  /* widen the profile column on the About/home section */
   .about .row > .col-md-4 {
     flex: 0 0 66.6667%;
     max-width: 66.6667%;
@@ -27,10 +10,12 @@
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
   }
-  /* make sure the image fills the widened column */
-  .about .profile img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+}
+
+/* Final image sizing — tweak these numbers only */
+.about .profile img {
+  width: 50% !important;   /* fill the wider column */
+  max-width: 800px;         /* try 500, 650, 900, etc. */
+  height: auto;
+  display: block;
 }
