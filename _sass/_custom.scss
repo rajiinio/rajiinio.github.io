@@ -1,27 +1,10 @@
-/* Global defaults — no !important here */
-.profile img {
-  width: 100%;
-  height: auto;
+/* FINAL OVERRIDE — matches your actual DOM (.post .profile img) */
+.post .profile img {
+  width: 60% !important;      /* change this number to taste: 40, 50, 80, 100 */
+  max-width: 520px !important; /* optional hard cap; set to none if you don’t want a cap */
+  height: auto !important;
   display: block;
 }
 
-/* Your actual sizing control — change only these numbers */
-.about .profile img {
-  max-width: none;   /* cap if you want; or set to none */
-  width: 80%;         /* try 50%, 70%, 100% */
-  height: auto;
-}
-
-/* Column widening (keep if you want the image’s column bigger) */
-@media (min-width: 768px) {
-  .about .row > .col-md-4 { flex: 0 0 66.6667%; max-width: 66.6667%; }
-  .about .row > .col-md-8 { flex: 0 0 33.3333%; max-width: 33.3333%; }
-  /* Do NOT set .about .profile img width here again */
-}
-
-/* Override theme's forced 100% width for the profile image */
-.about .profile img {
-  width: 80% !important;   /* try 50%, change to 30%, 60%, etc. until it looks right */
-  max-width: none !important; /* optional hard cap in pixels */
-  height: auto !important;
-}
+/* If you previously added any other .profile img width rules, delete them. */
+/* Also delete any .about … rules — your page doesn’t have an .about wrapper. */
