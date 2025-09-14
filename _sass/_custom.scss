@@ -25,19 +25,3 @@
   max-width: none !important; /* optional hard cap in pixels */
   height: auto !important;
 }
-
-/* Make the About-page avatar bigger */
-.about .avatar,
-.about .avatar img {
-  width: 45% !important;     /* try 45–60 depending on taste */
-  max-width: 360px;           /* optional hard cap so it doesn’t explode on wide screens */
-  height: auto;
-}
-
-/* Optional: make it a bit larger on phones */
-@media (max-width: 768px) {
-  .about .avatar,
-  .about .avatar img {
-    width: 60% !important;
-  }
-}
