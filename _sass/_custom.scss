@@ -21,7 +21,7 @@
 
 /* Override theme's forced 100% width for the profile image */
 .about .profile img {
-  width: 30% !important;   /* try 50%, change to 30%, 60%, etc. until it looks right */
+  width: 50% !important;   /* try 50%, change to 30%, 60%, etc. until it looks right */
   max-width: none !important; /* optional hard cap in pixels */
   height: auto !important;
 }
