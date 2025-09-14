@@ -1,9 +1,9 @@
 /* Make the homepage profile image larger on desktop */
-.about .profile {
+.profile {
   width: 90% !important;    /* or 100% if you want full column */
   max-width: none !important;
 }
-.about .profile img {
+.profile img {
   width: 100% !important;
   height: auto;
   display: block;
