@@ -9,10 +9,10 @@ layout: none
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url={{ '/assets/pdf/raji_cv.pdf' | relative_url }}">
-    <link rel="canonical" href="{{ '/assets/pdf/raji_cv.pdf' | relative_url }}">
+    <meta http-equiv="refresh" content="0; url=/assets/pdf/raji_cv.pdf">
+    <link rel="canonical" href="/assets/pdf/raji_cv.pdf">
   </head>
   <body>
-    <p><a href="{{ '/assets/pdf/raji_cv.pdf' | relative_url }}">Click here if you are not redirected.</a></p>
+    <p><a href="/assets/pdf/raji_cv.pdf">Redirecting to CV…</a></p>
   </body>
 </html>
