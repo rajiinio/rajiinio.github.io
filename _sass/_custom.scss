@@ -18,3 +18,5 @@
   .about .row > .col-md-8 { flex: 0 0 33.3333%; max-width: 33.3333%; }
   /* Do NOT set .about .profile img width here again */
 }
+
+.about .profile img { outline: 3px solid magenta !important; }
