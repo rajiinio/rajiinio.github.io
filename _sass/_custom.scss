@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .profile {
+    width: 80% !important;   // or 100%, depending on your preference
+    max-width: none;
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+}
