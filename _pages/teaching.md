@@ -21,11 +21,11 @@ nav: true
 nav_order: 3
 ---
 
-Hi! I'm a PhD student in Computer Science at UC Berkeley. I work on various topics related to the legal and institutional accountability required for machine learning systems to be deployed safely. 
+Hi! I'm a PhD student in Computer Science at UC Berkeley. I work on various topics related to the legal and institutional accountability required for machine learning systems to be deployed safely.
 
-More specifically, I’m interested in (1) how model engineering choices (from evaluation to data choices in model development) impact model behaviour and outcomes in deployment, (2) how different stakeholders participate in, interpret and make use of measurements of machine learning model performance in deployment (3) what this means in terms of consumer protection, product liability, procurement, anti-discrimination practice and other forms of legal and institutional accountability related to functional harms.  
+More specifically, I’m interested in (1) how model engineering choices (from evaluation to data choices in model development) impact model behaviour and outcomes in deployment, (2) how different stakeholders participate in, interpret and make use of measurements of machine learning model performance in deployment (3) what this means in terms of consumer protection, product liability, procurement, anti-discrimination practice and other forms of legal and institutional accountability related to functional harms.
 
-My work applies to a broad range of machine learning deployments — including automated decision systems, recommendation systems, and large pre-trained models. 
+My work applies to a broad range of machine learning deployments — including automated decision systems, recommendation systems, and large pre-trained models.
 
 My interests operate at the intersection of law and policy, applied economics and computer science.
 
@@ -35,6 +35,3 @@ My interests operate at the intersection of law and policy, applied economics an
 [comment]: <> (editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page]\(/al)
 [comment]: <> (folio/publications/\) automatically.Link to your social media connections, too. This theme is set up to use [Font Awesome icons]\(https://fontawesome.com/\) and)
 [comment]: <> ([Academicons]\(https://jpswalsh.github.io/academicons/\), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
-
-
-
