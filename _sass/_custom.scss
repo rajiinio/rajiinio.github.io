@@ -1,10 +1,10 @@
-@media (min-width: 768px) {
-  .profile {
-    width: 80% !important;   // or 100%, depending on your preference
-    max-width: none;
-  }
-  .profile img {
-    width: 100%;
-    height: auto;
-  }
+/* Make the homepage profile image larger on desktop */
+.about .profile {
+  width: 90% !important;    /* or 100% if you want full column */
+  max-width: none !important;
+}
+.about .profile img {
+  width: 100% !important;
+  height: auto;
+  display: block;
 }
