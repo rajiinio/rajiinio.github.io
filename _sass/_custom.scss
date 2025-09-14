@@ -9,6 +9,13 @@
   display: block;
 }
 
+.about .profile img {
+  max-width: 800px;   /* or 300px, 500px, etc. */
+  width: 100%;
+  height: auto;
+}
+
+
 /* Make the profile column wider on desktop only */
 @media (min-width: 768px) {
   /* widen the profile column on the About/home section */
