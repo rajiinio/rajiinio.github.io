@@ -11,6 +11,7 @@
 
 /* Make the profile column wider on desktop only */
 @media (min-width: 768px) {
+  /* widen the profile column on the About/home section */
   .about .row > .col-md-4 {
     flex: 0 0 66.6667%;
     max-width: 66.6667%;
@@ -19,7 +20,7 @@
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
   }
-  /* ensure the image fills its wider column */
+  /* make sure the image fills the widened column */
   .about .profile img {
     width: 100%;
     height: auto;
